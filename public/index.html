@@ -13,20 +13,126 @@
     <meta name="author" content="David Roman">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
 
+
+
+
+    <!--External social-icon Link-->
+    <script src="https://kit.fontawesome.com/b504cb9cfc.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
 
-    
 
-    <div class="video-container">
-        <video autoplay muted loop class="video">
-            <source src="../videos/video3.mp4" type="video/mp4" />
-            YOUR BROWSER DOES NOT SUPPORT THE VIDEO TAG
-        </video>
+    <div id="mySidenav" class="sidenav">
+        <a href="#" class="closebtn" onclick="closeNav()">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </a>
+        <a href="index.html">
+            Home
+        </a>
+        <a href="html/about.html">
+            About
+        </a>
+        <a href="html/to-doList.html">
+            To-do List
+        </a>
+        <a href="html/expenseTracker.html">
+            Expense Tracker
+        </a>
+        <a href="html/map.html">
+            Map
+        </a>
+
+        <button class="dropdown-btn">
+            Games <i class="fa fa-sort-desc" aria-hidden="true"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#addition">
+                Addition
+            </a>
+            <a href="#subtraction">
+                Subtraction
+            </a>
+            <a href="#multiplication">
+                Multiplication
+            </a>
+            <a href="#division">
+                Division
+            </a>
+        </div>
+
+        <a href="html/contact.html">
+            Contact
+        </a>
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <span class="nav-icon" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+            </span>
+
+        </div>
     </div>
 
 
 
+
+
+
+    <div class="daycare">
+        <h1 class="daycare-name">
+            <a href="index.html" class="daycare-name-link">
+                La Escuelita de Durham
+            </a>
+        </h1>
+
+        <p>
+            The kids daycare for learning and fun
+        </p>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------- -->
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "25%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0%";
+        }
+    </script>
+
+
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple 
+         * dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
 
 
 
