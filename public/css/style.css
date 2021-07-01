@@ -359,11 +359,16 @@ html, body {
 .nav-icon {
     font-size: 4vw;
     cursor: pointer;
-    padding-left: 16px;
+    padding-left: 26px;
     z-index: 6;
     position: fixed;
     color: black;
     transition: 0.5s;
+
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .nav-icon:hover {
@@ -420,7 +425,9 @@ html, body {
     color: #f1f1f1;
 }
 
-
+i.fa.fa-times {
+    font-size: 4vw;
+}
 
 
 
@@ -601,4 +608,5 @@ input {
 
     .addBtn:hover {
         background-color: #bbb;
+        font-size: 4vw;
     }
