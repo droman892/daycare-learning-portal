@@ -320,8 +320,17 @@ html, body {
 
 
 
+.non-active {
+    display: none;
+}
 
+.active {
+    display: inline;
+}
 
+a.point {
+    cursor: text;
+}
 
 
 
@@ -329,17 +338,10 @@ html, body {
 
 
 
-/* Add an active class to the active dropdown button */
-.active {
-    background-color: green;
-    color: white;
-}
-
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
     display: none;
-    background-color: #262626;
-    padding-left: 8px;
+
 }
 
 /* Optional: Style the caret down icon */
@@ -359,16 +361,16 @@ html, body {
 .nav-icon {
     font-size: 4vw;
     cursor: pointer;
-    padding-left: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px; 
     z-index: 6;
     position: fixed;
     color: black;
     transition: 0.5s;
-
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 0%;
+    
 }
 
 .nav-icon:hover {
@@ -385,12 +387,14 @@ html, body {
     z-index: 9;
     top: 0;
     left: 0;
-    background-color: black;
+    background-image: linear-gradient(yellow, orange, red);
+    border: 1px black solid;
     overflow-x: hidden;
     transition: 0.5s;
     overflow-y: scroll;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+    color: blue;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -398,14 +402,11 @@ html, body {
     display: none;
 }
 
-.dropdown-btn {
-    transition: all 1.5s ease 0s;
-}
-
 .sidenav a, .dropdown-btn {
         padding: 8px 8px 16px 32px;
         text-decoration: none;
-        color: #818181;
+        color: white;
+        font-weight: bold;
         display: block;
         transition: 0.5s;
         cursor: pointer;
@@ -413,6 +414,7 @@ html, body {
         border: none;
         width: 100%;
         text-align: left;
+
     }
     /* font-size: 25px;  was up above^^ */
 
@@ -422,11 +424,127 @@ html, body {
 
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
-    color: #f1f1f1;
+    color: white;
+
+
 }
 
 i.fa.fa-times {
     font-size: 4vw;
+    padding-top: 3px;
+    transition: 0.5s;
+    
+}
+
+
+.closebtn {
+    margin: auto;
+}
+
+a.closebtn {
+    position: absolute;
+    right: 0%;
+   
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+
+
+i.fa.fa-times {
+    
+}
+
+
+
+a.home-btn:hover {
+    background: #ff7800;
+    border: 1px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+a.about-btn:hover {
+    background: #e20000;
+    border: 1px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+a.todo-btn:hover {
+    background: #eeee00;
+    border: 1px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+a.expense-btn:hover {
+    background: #ff7800;
+    border: 1px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+a.map-btn:hover {
+    background: #e20000;
+    border: 1px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+button.dropdown-btn:hover {
+    background: #eeee00;
+    border: 1px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+a.submenu-btn {
+    padding-left: 62px;
+
+}
+
+a.submenu-btn:hover {
+    background: #cece00;
+    border: 1px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+a.contact-btn:hover {
+    background: #ff7800;
+    border: 1px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 
@@ -438,11 +556,6 @@ i.fa.fa-times {
 
 
 
-    
-
-
-
-    
 
 
 
@@ -485,23 +598,9 @@ i.fa.fa-times {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*  THE TO DO LIST  */
-
-
-/* Remove margins and padding from the list */
-ul {
+    /*  THE TO DO LIST  */
+    /* Remove margins and padding from the list */
+    ul {
     margin: 0;
     padding: 0;
 }
@@ -561,10 +660,6 @@ ul {
     padding: 12px 16px 12px 16px;
 }
 
-    .close:hover {
-        background-color: #f44336;
-        color: white;
-    }
 
 /* Style the header */
 .header {
@@ -607,6 +702,6 @@ input {
 }
 
     .addBtn:hover {
-        background-color: #bbb;
+        background-color: blue;
         font-size: 4vw;
     }

@@ -20,6 +20,9 @@
     <script src="https://kit.fontawesome.com/b504cb9cfc.js" crossorigin="anonymous"></script>
 
 
+    <!-- Google CDN (Content Delivery Network) for jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -31,40 +34,47 @@
         <a href="#" class="closebtn" onclick="closeNav()">
             <i class="fa fa-times" aria-hidden="true"></i>
         </a>
-        <a href="index.html">
+        <a></a>
+        <a></a>
+        <a></a>
+        <a></a>
+
+        <a href="index.html" class="home-btn">
             Home
         </a>
-        <a href="html/about.html">
+        <a href="html/about.html" class="about-btn">
             About
         </a>
-        <a href="html/to-doList.html">
+        <a href="html/to-doList.html" class="todo-btn">
             To-do List
         </a>
-        <a href="html/expenseTracker.html">
+        <a href="html/expenseTracker.html" class="expense-btn">
             Expense Tracker
         </a>
-        <a href="html/map.html">
+        <a href="html/map.html" class="map-btn">
             Map
         </a>
-        <button class="dropdown-btn">
-            Games <i class="fa fa-sort-desc" aria-hidden="true"></i>
-        </button>
-        <div class="dropdown-container">
-            <a href="#addition">
-                Addition
+        <div class="top-menu">
+            <a style="cursor:default" class="point">
+                Games <i class="fa fa-sort-desc" aria-hidden="true"></i>
             </a>
-            <a href="#subtraction">
-                Subtraction
-            </a>
-            <a href="#multiplication">
-                Multiplication
-            </a>
-            <a href="#division">
-                Division
-            </a>
+            <div class="sub-menu non-active">
+                <a href="#addition" class="submenu-btn">
+                    Addition
+                </a>
+                <a href="#subtraction" class="submenu-btn">
+                    Subtraction
+                </a>
+                <a href="#multiplication" class="submenu-btn">
+                    Multiplication
+                </a>
+                <a href="#division" class="submenu-btn">
+                    Division
+                </a>
+            </div>
         </div>
 
-        <a href="html/contact.html">
+        <a href="html/contact.html" class="contact-btn">
             Contact
         </a>
     </div>
@@ -100,8 +110,10 @@
 
 
 
-    <script src="javaScript/sideNavBar.js"></script>
+    
+
     <script src="javaScript/navBarDropDown.js"></script>
+    <script src="javaScript/sideNavBar.js"></script>
 
 
 
