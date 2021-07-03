@@ -264,6 +264,16 @@
     }
 }
 
+/* EVERYTHING ABOVE IS FOR RESPONSIVE COLUMNS*/
+
+
+@media only screen and (max-width: 600px) {
+    .daycare {
+        padding: 100px;
+    }
+
+}
+
 
 /*  EVERYTHING ABOVE IS TO MAKE THE SITE RESPONSIVE  */
 
@@ -289,24 +299,31 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 2.5vw;
     text-align: center;
     width: 100%;
     
 }
 
-.daycare-name {
+h1.daycare-index {
+    font-size: 5.5vw;
+}
+
+p.daycare-caption {
+    font-size: 3vw;
+}
+
+.daycare-index {
     transition: 0.5s;
-    width: 60%;
     margin: auto;
 }
 
 .daycare-name-link {
     text-decoration: none;
     color: black;
+    
 }
 
-.daycare-name:hover {
+.daycare-index:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
