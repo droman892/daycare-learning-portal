@@ -632,12 +632,20 @@ i.fa.fa-times:hover {
     transition: 0.5s;
 }
 
+p.daycare-caption {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
+div.head {
+    overflow: auto;
+    min-height: 150px;
+}
 
-
-
-
+div.nav-icon {
+    float: left;
+}
 
 
 
