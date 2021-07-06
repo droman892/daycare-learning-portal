@@ -327,6 +327,33 @@
     a.nav-close {
         padding: 12px 12px 12px 0px;
     }
+
+    input {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    .addBtn {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 5vw;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .no-top-margin {
+        margin-bottom: 20px;
+    }
+
+    .header {
+        font-size: 4.5vw;
+    }
+
+    ul li {
+        font-size: 4.5vw;
+    }
 }
 
 
@@ -362,6 +389,32 @@
     a.nav-close {
         padding: 15px 15px 12px 0px;
     }
+
+    input {
+        width: 73%;
+        font-size: 3vw;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .addBtn {
+        width: 23%;
+        font-size: 3vw;
+    }
+
+    .no-top-margin {
+        margin-bottom: 30px;
+    }
+
+    .header {
+        font-size: 3.2vw;
+    }
+
+    ul li {
+        font-size: 3vw;
+    }
 }
 
 
@@ -384,6 +437,32 @@
 
     a.nav-close {
         padding: 15px 15px 12px 0px;
+    }
+
+    input {
+        width: 73%;
+        font-size: 3vw;
+    }
+
+    .header {
+        padding: 40px;
+    }
+
+    .addBtn {
+        width: 23%;
+        font-size: 3vw;
+    }
+
+    .no-top-margin {
+        margin-bottom: 50px;
+    }
+
+    .header {
+        font-size: 3.2vw;
+    }
+
+    ul li {
+        font-size: 3vw;
     }
 } 
 
@@ -415,6 +494,32 @@
     a.nav-close {
         padding: 15px 15px 12px 0px;
     }
+
+    input {
+        width: 73%;
+        font-size: 3vw;
+    }
+
+    .header {
+        padding: 40px;
+    }
+
+    .addBtn {
+        width: 23%;
+        font-size: 3vw;
+    }
+
+    .no-top-margin {
+        margin-bottom: 50px;
+    }
+
+    .header {
+        font-size: 3.2vw;
+    }
+
+    ul li {
+        font-size: 3vw;
+    }
 } 
 
 
@@ -445,6 +550,32 @@
 
     a.nav-close {
         padding: 15px 0px 12px 0px;
+    }
+
+    input {
+        width: 73%;
+        font-size: 3vw;
+    }
+
+    .header {
+        padding: 40px;
+    }
+
+    .addBtn {
+        width: 23%;
+        font-size: 3vw;
+    }
+
+    .no-top-margin {
+        margin-bottom: 50px;
+    }
+
+    .header {
+        font-size: 3.2vw;
+    }
+
+    ul li {
+        font-size: 3vw;
     }
 }
 
@@ -494,7 +625,6 @@
     cursor: pointer;
     padding-bottom: 3px; 
     z-index: 6;
-    position: fixed;
     color: black;
     transition: 0.5s; 
 }
@@ -666,17 +796,20 @@ div.nav-icon {
 
 .no-top-margin {
     margin-top: 0;
-    margin-bottom: 50px;
+    
+}
+
+a.list-title {
+    color: white;
+    text-decoration: none;
 }
 
 .header {
     background-color: #ff7800;
-    padding: 40px;
     color: white;
     text-align: center;
     width: 75%;
     margin: auto;
-    font-size: 3.2vw;
 }
 
 /* Clear floats after the header */
@@ -689,12 +822,10 @@ div.nav-icon {
 /* Style the "Add" button */
 .addBtn {
     padding: 10px;
-    width: 23%;
     background: #e20000;
     color: white;
     float: right;
-    text-align: center;
-    font-size: 3vw;
+    text-align: center; 
     cursor: pointer;
     transition: 0.5s;
     border-radius: 30px;
@@ -712,14 +843,9 @@ input {
     margin: 0;
     border: none;
     border-radius: 30px;
-    width: 73%;
     padding: 10px;
     float: left;
-    font-size: 3vw;
-}
-
-.toDoText {
-    font-size: 3vw;
+    
 }
 
 /* Remove margins and padding from the list */
@@ -742,7 +868,7 @@ ul li {
     padding: 12px 40px 12px 40px;
     list-style-type: none;
     background: orange;
-    font-size: 3vw;
+
     transition: 0.5s;
     width: 75%;
     margin: auto;
@@ -764,4 +890,3 @@ ul li.checked {
     color: white;
     text-decoration: line-through;
 }
-
