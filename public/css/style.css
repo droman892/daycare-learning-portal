@@ -30,6 +30,15 @@
 
 */
 
+    /*
+@media only screen and (max-height: 580px) {
+    div.head {
+        min-height: 100px;
+    }
+}
+        */
+
+
 @media only screen and (max-width: 600px) {
     .nav-icon {
         font-size: 8vw;
@@ -121,6 +130,35 @@
     div.head {
         min-height: 100px;
     }
+
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.math-container {
+        margin-top: 50px;
+    }
+
+    .math-container {
+        width: 65%;
+        font-size: 10vw;
+        padding: 40px 0px 40px 0px;
+        border: 5px solid black;
+    }
+
+    .problem-btn {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 7vw;
+    }
+
+    a.problem-btn.orange {
+        margin-bottom: 50px;
+        margin-top: 70px;
+    }
 }
 
 
@@ -199,6 +237,35 @@
     div.head {
         min-height: 50px;
     }
+
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.math-container {
+        margin-top: 50px;
+    }
+
+    .math-container {
+        width: 35%;
+        font-size: 6vw;
+        padding: 40px 0px 40px 0px;
+        border: 5px solid black;
+    }
+
+    .problem-btn {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+    }
+
+    a.problem-btn.orange {
+        margin-bottom: 50px;
+        margin-top: 70px;
+    }
 }
 
 
@@ -264,6 +331,35 @@
 
     div.head {
         min-height: 150px;
+    }
+
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.math-container {
+        margin-top: 50px;
+    }
+
+    .math-container {
+        width: 35%;
+        font-size: 6vw;
+        padding: 40px 0px 40px 0px;
+        border: 5px solid black;
+    }
+
+    .problem-btn {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+    }
+
+    a.problem-btn.orange {
+        margin-bottom: 50px;
+        margin-top: 70px;
     }
 } 
 
@@ -337,6 +433,35 @@
 
     div.head {
         min-height: 150px;
+    }
+
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.math-container {
+        margin-top: 50px;
+    }
+
+    .math-container {
+        width: 35%;
+        font-size: 6vw;
+        padding: 40px 0px 40px 0px;
+        border: 5px solid black;
+    }
+
+    .problem-btn {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+    }
+
+    a.problem-btn.orange {
+        margin-bottom: 50px;
+        margin-top: 70px;
     }
 } 
 
@@ -412,9 +537,167 @@
     div.head {
         min-height: 150px;
     }
+
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.math-container {
+        margin-top: 50px;
+    }
+
+    .math-container {
+        width: 35%;
+        font-size: 6vw;
+        padding: 40px 0px 40px 0px;
+        border: 5px solid black;
+    }
+
+    .problem-btn {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+    }
+
+    a.problem-btn.orange {
+        margin-bottom: 50px;
+        margin-top: 70px;
+    }
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-height: 700px) {
+    .nav-icon {
+        font-size: 5vw;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    h1.daycare-index {
+        font-size: 5.5vw;
+    }
+
+    p.daycare-caption {
+        font-size: 3vw;
+    }
+
+    .sidenav a, .dropdown-btn {
+        font-size: 3.2vw;
+    }
+
+    i.fa.fa-times {
+        font-size: 5.5vw;
+        transition: 0.5s;
+    }
+
+    a.nav-close {
+        padding: 15px 0px 12px 0px;
+    }
+
+    input {
+        width: 73%;
+        font-size: 3vw;
+    }
+
+    .header {
+        padding: 40px;
+    }
+
+    .addBtn {
+        width: 23%;
+        font-size: 3vw;
+    }
+
+    .no-top-margin {
+        margin-bottom: 50px;
+    }
+
+    .header {
+        font-size: 3.2vw;
+    }
+
+    ul li {
+        font-size: 3vw;
+    }
+
+    .level {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+    }
+
+    .btn-space {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    div.head {
+        min-height: 80px;
+    }
+
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    p.daycare-caption.organize {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    div.math-container {
+        margin-top: 20px;
+    }
+
+    .math-container {
+        width: 35%;
+        font-size: 6vw;
+        padding: 40px 0px 40px 0px;
+        border: 5px solid black;
+    }
+    
+    .problem-btn {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 3vw;
+    }
+
+    a.problem-btn.orange {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+}
 
 
 
@@ -533,6 +816,17 @@ i.fa.fa-times:hover {
     transform: scale(1.1);
     transition: 0.5s;
     text-decoration: underline;
+}
+
+.math-container {
+    text-align: center;
+    margin: auto;
+}
+
+.middle {
+    margin: auto;
+    text-align: center;
+    width: 50%;
 }
 
 .nav-icon {
@@ -679,6 +973,24 @@ a.indent {
     padding-left: 10%;
 }
 
+a.problem-btn.orange {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.problem-btn.orange:hover {
+    opacity: 0.7;
+}
+
+a.problem-btn.red {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.problem-btn.red:hover {
+    opacity: 0.7;
+}
+
 button.dropdown-btn:hover {
     background: #eeee00;  
     -ms-transform: scale(1.2); /* IE 9 */
@@ -716,6 +1028,63 @@ p.daycare-caption {
     padding-right: 10px;
 }
 
+.problem-btn {
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.progress-bar-0 {
+    height: 100%;
+    width: 0%;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+.progress-bar-20 {
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+.progress-bar-40 {
+    height: 100%;
+    width: 40%;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+.progress-bar-60 {
+    height: 100%;
+    width: 60%;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+.progress-bar-80 {
+    height: 100%;
+    width: 80%;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+.progress-bar-100 {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+.progress-bar-container {
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: auto;
+}
+
 /* Remove margins and padding from the list */
 ul {
     margin: 0;
@@ -751,37 +1120,7 @@ ul li.checked {
     text-decoration: line-through;
 }
 
-
-
-
-
-
-
-
-
-.progress-bar-container {
-    height: 50px;
-    width: 80%;
-    background-color: black;
-    border: 5px solid black;
-    border-radius: 30px;
+.congrats {
     margin: auto;
-}
-
-.progress-bar{
-    height: 100%;
-    width: 5%;
-    background-color: yellow;
-    border-radius: 30px;
-}
-
-
-.math-container {
-    width: 30%;
-    border: 5px solid black;
-    font-size: 5vw;
     text-align: center;
-    margin: auto;
-    margin-top: 100px;
-    padding: 20px;
 }
