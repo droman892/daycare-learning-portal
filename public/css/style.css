@@ -159,6 +159,34 @@
         margin-bottom: 50px;
         margin-top: 70px;
     }
+
+    .congrats {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .congrats-size {
+        font-size: 8vw;
+        margin: 30px;
+    }
+
+    .congrats-text {
+        font-size: 4.5vw;
+    }
+
+    .problem-btn-congrats {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 5vw;
+    }
+
+    p.congrats-text {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -266,6 +294,34 @@
         margin-bottom: 50px;
         margin-top: 70px;
     }
+
+    .congrats {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .congrats-size {
+        font-size: 5.5vw;
+        margin: 30px;
+    }
+
+    .congrats-text {
+        font-size: 3vw;
+    }
+
+    .problem-btn-congrats {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+    }
+
+    p.congrats-text {
+        margin-top: 30px;
+        margin-bottom: 12px;
+    }
 }
 
 
@@ -360,6 +416,34 @@
     a.problem-btn.orange {
         margin-bottom: 50px;
         margin-top: 70px;
+    }
+
+    .congrats {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .congrats-size {
+        font-size: 5.5vw;
+        margin: 30px;
+    }
+
+    .congrats-text {
+        font-size: 3vw;
+    }
+
+    .problem-btn-congrats {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+    }
+
+    p.congrats-text {
+        margin-top: 30px;
+        margin-bottom: 50px;
     }
 } 
 
@@ -463,6 +547,34 @@
         margin-bottom: 50px;
         margin-top: 70px;
     }
+
+    .congrats {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .congrats-size {
+        font-size: 5.5vw;
+        margin: 30px;
+    }
+
+    .congrats-text {
+        font-size: 3vw;
+    }
+
+    .problem-btn-congrats {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+    }
+
+    p.congrats-text {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
 } 
 
 
@@ -565,6 +677,45 @@
     a.problem-btn.orange {
         margin-bottom: 50px;
         margin-top: 70px;
+    }
+
+    .congrats {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .congrats-size {
+        font-size: 5.5vw;
+        margin: 30px;
+    }
+
+    .congrats {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .congrats-size {
+        font-size: 5.5vw;
+        margin: 30px;
+    }
+
+    .congrats-text {
+        font-size: 3vw;
+    }
+
+    .problem-btn-congrats {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+    }
+
+    p.congrats-text {
+        margin-top: 30px;
+        margin-bottom: 50px;
     }
 }
 
@@ -696,6 +847,34 @@
     a.problem-btn.orange {
         margin-bottom: 10px;
         margin-top: 20px;
+    }
+
+    .congrats {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .congrats-size {
+        font-size: 5.5vw;
+        margin: 10px;
+    }
+
+    .congrats-text {
+        font-size: 3vw;
+    }
+
+    .problem-btn-congrats {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 3vw;
+    }
+
+    p.congrats-text {
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 }
 
@@ -991,6 +1170,26 @@ a.problem-btn.red:hover {
     opacity: 0.7;
 }
 
+a.problem-btn-congrats.orange {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+a.problem-btn-congrats.orange:hover {
+    opacity: 0.7;
+}
+
+a.problem-btn-congrats.red {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.problem-btn-congrats.red:hover {
+    opacity: 0.7;
+}
+
 button.dropdown-btn:hover {
     background: #eeee00;  
     -ms-transform: scale(1.2); /* IE 9 */
@@ -1029,6 +1228,12 @@ p.daycare-caption {
 }
 
 .problem-btn {
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.problem-btn-congrats {
     border-radius: 30px;
     text-decoration: none;
     color: white;
@@ -1118,9 +1323,4 @@ ul li.checked {
     background: rgb(186 35 35 / 0.60);
     color: white;
     text-decoration: line-through;
-}
-
-.congrats {
-    margin: auto;
-    text-align: center;
 }

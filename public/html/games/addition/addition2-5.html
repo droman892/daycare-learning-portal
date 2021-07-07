@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Connect to CSS file C:\Users\David Roman (Work)\Projects\daycare-learning-portal\public\css\style.css -->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+    <title>La Escuelita de Durham - Card Flip Game - Addition: Intermediate</title>
+
+    <!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Website for Fictional Restaurant">
+    <meta name="author" content="David Roman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+
+    <!--External social-icon Link-->
+    <script src="https://kit.fontawesome.com/b504cb9cfc.js" crossorigin="anonymous"></script>
+
+
+    <!-- Google CDN (Content Delivery Network) for jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- used Rando.js to generate random numbers for the math problems -->
+    <script src="https://randojs.com/2.0.0.js"></script>
+
+</head>
+<body onload="showRandomNumber1(); showRandomNumber2();">
+
+    <div id="mySidenav" class="sidenav">
+
+        <a href="#" class="nav-close" onclick="closeNav()">
+            <div class="x">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+        </a>
+
+        <a href="../../../index.html" class="home-btn nav">
+            Home
+        </a>
+        <a href="../../about.html" class="about-btn nav">
+            About
+        </a>
+        <a href="../../to-doList.html" class="todo-btn nav">
+            To-do List
+        </a>
+        <a href="../../letters.html" class="letters-btn nav">
+            Letters
+        </a>
+
+        <div class="top-menu">
+            <a class="point nav">
+                Games <i class="fa fa-sort-desc" aria-hidden="true"></i>
+            </a>
+            <div class="sub-menu non-active">
+                <a href="../../addition.html" class="submenu-btn nav indent">
+                    Addition
+                </a>
+                <a href="../../subtraction.html" class="submenu-btn nav indent">
+                    Subtraction
+                </a>
+                <a href="../../multiplication.html" class="submenu-btn nav indent">
+                    Multiplication
+                </a>
+                <a href="../../division.html" class="submenu-btn nav indent">
+                    Division
+                </a>
+            </div>
+        </div>
+
+        <a href="../../contact.html" class="contact-btn nav">
+            Contact
+        </a>
+
+    </div>
+
+    <div class="head">
+
+        <div class="nav-icon" onclick="openNav()">
+            <i class="fa fa-bars"></i>
+        </div>
+
+    </div>
+
+
+    <div class="progress-bar-container">
+        <div class="progress-bar-80">
+
+        </div>
+    </div>
+
+
+
+    <div class="math-container">
+        <span id="myNumber1"></span> + <span id="myNumber2"></span>
+    </div>
+
+
+
+    <div class="middle separate">
+
+        <a class="problem-btn orange" href="addition2-congrats.html">
+            Next
+        </a>
+        <a class="problem-btn red" href="../../addition.html">
+            Reset
+        </a>
+
+    </div>
+
+
+    <script src="../../../javaScript/navBarDropDown.js"></script>
+    <script src="../../../javaScript/sideNavBar.js"></script>
+    <script src="../../../javaScript/randomNumbersIntermediate.js"></script>
+
+
+</body>
+</html>
