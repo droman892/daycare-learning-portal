@@ -131,6 +131,10 @@
         min-height: 100px;
     }
 
+    div.head {
+        min-height: 0px;
+    }
+
     .middle {
         display: flex;
         flex-wrap: wrap;
@@ -207,7 +211,11 @@
         margin: 3%;
     }
 
-
+    .all-letters {
+        width: 90%;
+        height: 86%;
+        padding: 5px;
+    }
 }
 
 
@@ -287,6 +295,10 @@
         min-height: 50px;
     }
 
+    div.head-let {
+        min-height: 50px;
+    }
+
     .middle {
         display: flex;
         flex-wrap: wrap;
@@ -350,7 +362,7 @@
 
     #mydivheader {
         margin: 5%;
-        font-size: 1.6vw;
+        font-size: 3vw;
     }
 
     .let-reset {
@@ -360,7 +372,13 @@
     }
 
     .let-reset-container {
-        margin: 1%;
+        margin: 2%;
+    }
+
+    .all-letters {
+        width: 90%;
+        height: 66.5%;
+        padding: 10px;
     }
 }
 
@@ -429,6 +447,10 @@
         min-height: 150px;
     }
 
+    div.head-let {
+        min-height: 150px;
+    }
+
     .middle {
         display: flex;
         flex-wrap: wrap;
@@ -492,7 +514,7 @@
 
     #mydivheader {
         margin: 5%;
-        font-size: 1.6vw;
+        font-size: 3vw;
     }
 
     .let-reset {
@@ -503,6 +525,12 @@
 
     .let-reset-container {
         margin: 1%;
+    }
+
+    .all-letters {
+        width: 90%;
+        height: 66.5%;
+        padding: 10px;
     }
 } 
 
@@ -578,6 +606,10 @@
         min-height: 150px;
     }
 
+    div.head-let {
+        min-height: 150px;
+    }
+
     .middle {
         display: flex;
         flex-wrap: wrap;
@@ -642,7 +674,7 @@
 
     #mydivheader {
         margin: 5%;
-        font-size: 1.6vw;
+        font-size: 2.5vw;
     }
 
     .let-reset {
@@ -653,6 +685,12 @@
 
     .let-reset-container {
         margin: 1%;
+    }
+
+    .all-letters {
+        width: 90%;
+        height: 66.5%;
+        padding: 10px;
     }
 } 
 
@@ -729,6 +767,10 @@
         min-height: 150px;
     }
 
+    div.head-let {
+        min-height: 150px;
+    }
+
     .middle {
         display: flex;
         flex-wrap: wrap;
@@ -814,6 +856,12 @@
 
     .let-reset-container {
         margin: 1%;
+    }
+
+    .all-letters {
+        width: 90%;
+        height: 66.5%;
+        padding: 10px;
     }
 }
 
@@ -913,6 +961,10 @@
         min-height: 80px;
     }
 
+    div.head-let {
+        min-height: 80px;
+    }
+
     .middle {
         display: flex;
         flex-wrap: wrap;
@@ -983,12 +1035,12 @@
 
 
     #mydivheader {
-        margin: 5%;
-        font-size: 1.6vw;
+        margin: 0%;
+        font-size: 1.5vw;
     }
 
     .let-reset {
-        font-size: 3vw;
+        font-size: 1.5vw;
         padding-right: 3%;
         padding-left: 3%;
     }
@@ -996,6 +1048,14 @@
     .let-reset-container {
         margin: 1%;
     }
+
+    .all-letters {
+        width: 90%;
+        height: 74%;
+        padding: 0px;
+    }
+
+
 }
 
 
@@ -1319,6 +1379,10 @@ button.dropdown-btn:hover {
 }
 
 div.head {
+    overflow: auto;
+}
+
+div.head-let {
     overflow: auto;
 }
 
@@ -1667,26 +1731,38 @@ ul li.checked {
     height: 100%;
     border: 0px solid black;
     float: left;
+    overflow: visible;
 }
 
 .aplha2 {
     width: 52px;
-    height: 100%;
+    
     border: 0px solid black;
     overflow: hidden;
 }
 
+
 .all-letters {
     border: 0px solid black;
-    width: 80%;
-    height: 66.5%;
     position: relative;
     margin-top: 0%;
     margin: auto;
-    padding: 10px;
     background-color: #eeee00;
-    overflow: hidden;
+    overflow-y: scroll;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.all-letters::-webkit-scrollbar {
+        display: none;
+    }
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.all-letters {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+
 
 .let-reset-container {
     text-align: center;
