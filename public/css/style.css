@@ -187,6 +187,27 @@
         margin-top: 30px;
         margin-bottom: 50px;
     }
+
+
+
+
+
+    #mydivheader {
+        margin: 1%;
+        font-size: 5vw;
+    }
+
+    .let-reset {
+        font-size: 5vw;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .let-reset-container {
+        margin: 3%;
+    }
+
+
 }
 
 
@@ -322,6 +343,25 @@
         margin-top: 30px;
         margin-bottom: 12px;
     }
+
+
+
+
+
+    #mydivheader {
+        margin: 5%;
+        font-size: 1.6vw;
+    }
+
+    .let-reset {
+        font-size: 3vw;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .let-reset-container {
+        margin: 1%;
+    }
 }
 
 
@@ -444,6 +484,25 @@
     p.congrats-text {
         margin-top: 30px;
         margin-bottom: 50px;
+    }
+
+
+
+
+
+    #mydivheader {
+        margin: 5%;
+        font-size: 1.6vw;
+    }
+
+    .let-reset {
+        font-size: 3vw;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .let-reset-container {
+        margin: 1%;
     }
 } 
 
@@ -574,6 +633,26 @@
     p.congrats-text {
         margin-top: 30px;
         margin-bottom: 50px;
+    }
+
+
+
+
+
+
+    #mydivheader {
+        margin: 5%;
+        font-size: 1.6vw;
+    }
+
+    .let-reset {
+        font-size: 3vw;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .let-reset-container {
+        margin: 1%;
     }
 } 
 
@@ -716,6 +795,25 @@
     p.congrats-text {
         margin-top: 30px;
         margin-bottom: 50px;
+    }
+
+
+
+
+
+    #mydivheader {
+        margin: 5%;
+        font-size: 1.6vw;
+    }
+
+    .let-reset {
+        font-size: 3vw;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .let-reset-container {
+        margin: 1%;
     }
 }
 
@@ -875,6 +973,28 @@
     p.congrats-text {
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+
+
+
+
+
+
+
+
+    #mydivheader {
+        margin: 5%;
+        font-size: 1.6vw;
+    }
+
+    .let-reset {
+        font-size: 3vw;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .let-reset-container {
+        margin: 1%;
     }
 }
 
@@ -1514,41 +1634,70 @@ ul li.checked {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #mydivheader {
-    padding: 10px;
+    
+    
     cursor: move;
     background-color: #ff7800;
-    color: #fff;
+    color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .aplha {
-    width: 60px;
-    height: 600px;
-    border: 3px solid black;
+    width: 52px;
+    height: 100%;
+    border: 0px solid black;
+    float: left;
 }
 
 .aplha2 {
-    width: 60px;
-    height: 600px;
-    border: 3px solid black;
+    width: 52px;
+    height: 100%;
+    border: 0px solid black;
+    overflow: hidden;
 }
 
 .all-letters {
-    border: 3px solid black;
-    width: 200px;
-    height: 700px;
+    border: 0px solid black;
+    width: 80%;
+    height: 66.5%;
     position: relative;
+    margin-top: 0%;
+    margin: auto;
+    padding: 10px;
+    background-color: #eeee00;
+    overflow: hidden;
+}
+
+.let-reset-container {
+    text-align: center;
+}
+
+.let-reset {
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.let-reset:hover {
+    opacity: 0.7;
 }
