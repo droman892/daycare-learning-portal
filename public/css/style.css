@@ -131,9 +131,7 @@
         min-height: 100px;
     }
 
-    div.head {
-        min-height: 0px;
-    }
+    
 
     .middle {
         display: flex;
@@ -192,29 +190,49 @@
         margin-bottom: 50px;
     }
 
-
-
-
-
     #mydivheader {
         margin: 1%;
-        font-size: 5vw;
+        font-size: 3.5vw;
     }
 
     .let-reset {
-        font-size: 5vw;
+        font-size: 4.5vw;
         padding-right: 3%;
         padding-left: 3%;
     }
 
     .let-reset-container {
-        margin: 3%;
+        margin-top: 1%;
     }
 
     .all-letters {
         width: 90%;
-        height: 86%;
+        height: 87%;
         padding: 5px;
+    }
+
+    div.contain {
+        width: 80%;
+    }
+
+    .about-size {
+        font-size: 7vw;
+    }
+
+    .about-text {
+        font-size: 4.3vw;
+    }
+
+    .margin {
+        width: 100%;
+    }
+
+    .contact-size {
+        font-size: 7vw;
+    }
+
+    .contact-text {
+        font-size: 4.3vw;
     }
 }
 
@@ -292,7 +310,7 @@
     }
 
     div.head {
-        min-height: 50px;
+        min-height: 80px;
     }
 
     div.head-let {
@@ -356,10 +374,6 @@
         margin-bottom: 12px;
     }
 
-
-
-
-
     #mydivheader {
         margin: 5%;
         font-size: 3vw;
@@ -379,6 +393,30 @@
         width: 90%;
         height: 66.5%;
         padding: 10px;
+    }
+
+    div.contain {
+        width: 95%;
+    }
+
+    .about-size {
+        font-size: 5vw;
+    }
+
+    .about-text {
+        font-size: 2.2vw;
+    }
+
+    .margin {
+        width: 65%;
+    }
+
+    .contact-size {
+        font-size: 6vw;
+    }
+
+    .contact-text {
+        font-size: 1.9vw;
     }
 }
 
@@ -508,10 +546,6 @@
         margin-bottom: 50px;
     }
 
-
-
-
-
     #mydivheader {
         margin: 5%;
         font-size: 3vw;
@@ -531,6 +565,30 @@
         width: 90%;
         height: 66.5%;
         padding: 10px;
+    }
+
+    div.contain {
+        width: 95%;
+    }
+
+    .about-size {
+        font-size: 6vw;
+    }
+
+    .about-text {
+        font-size: 1.9vw;
+    }
+
+    .margin {
+        width: 65%;
+    }
+
+    .contact-size {
+        font-size: 6vw;
+    }
+
+    .contact-text {
+        font-size: 1.9vw;
     }
 } 
 
@@ -667,11 +725,6 @@
         margin-bottom: 50px;
     }
 
-
-
-
-
-
     #mydivheader {
         margin: 5%;
         font-size: 2.5vw;
@@ -691,6 +744,30 @@
         width: 90%;
         height: 66.5%;
         padding: 10px;
+    }
+
+    div.contain {
+        width: 95%;
+    }
+
+    .about-size {
+        font-size: 6vw;
+    }
+
+    .about-text {
+        font-size: 1.9vw;
+    }
+
+    .margin {
+        width: 65%;
+    }
+
+    .contact-size {
+        font-size: 6vw;
+    }
+
+    .contact-text {
+        font-size: 1.9vw;
     }
 } 
 
@@ -839,10 +916,6 @@
         margin-bottom: 50px;
     }
 
-
-
-
-
     #mydivheader {
         margin: 5%;
         font-size: 1.6vw;
@@ -862,6 +935,30 @@
         width: 90%;
         height: 66.5%;
         padding: 10px;
+    }
+
+    div.contain {
+        width: 95%;
+    }
+
+    .about-size {
+        font-size: 6vw;
+    }
+
+    .about-text {
+        font-size: 1.9vw;
+    }
+
+    .margin {
+        width: 65%;
+    }
+
+    .contact-size {
+        font-size: 6vw;
+    }
+
+    .contact-text {
+        font-size: 1.9vw;
     }
 }
 
@@ -1027,13 +1124,6 @@
         margin-bottom: 15px;
     }
 
-
-
-
-
-
-
-
     #mydivheader {
         margin: 0%;
         font-size: 1.5vw;
@@ -1055,7 +1145,29 @@
         padding: 0px;
     }
 
+    div.contain {
+        width: 95%;
+    }
 
+    .about-size {
+        font-size: 6vw;
+    }
+
+    .about-text {
+        font-size: 1.9vw;
+    }
+
+    .margin {
+        width: 65%;
+    }
+
+    .contact-size {
+        font-size: 6vw;
+    }
+
+    .contact-text {
+        font-size: 1.9vw;
+    }
 }
 
 
@@ -1069,10 +1181,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Comic Sans MS', 'Lucida Console', Consolas, 'Malgun Gothic', Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.about-text {
-    font-size: 2vw;
 }
 
 /* Style the "Add" button */
@@ -1231,8 +1339,8 @@ i.fa.fa-times:hover {
     -ms-overflow-style: none; /* IE and Edge */
 }
 
-.underline {
-    text-decoration: underline;
+.bold {
+    font-weight: bold;
 }
 
 .x {
@@ -1777,3 +1885,84 @@ ul li.checked {
 .let-reset:hover {
     opacity: 0.7;
 }
+
+
+
+
+
+
+
+
+
+
+
+div.icon-about {
+    height: 15%;
+}
+
+div.contain {
+
+    margin: auto;
+    text-align: center;
+}
+
+.about-size {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.about-size:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+div.icon-contact {
+    height: 15%;
+}
+
+
+
+
+.contact-size {
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.contact-size:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+
+
+.underline {
+    text-decoration: underline;
+    color: black;
+    transition: 0.5s;
+}
+
+.underline:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
