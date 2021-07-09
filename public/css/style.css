@@ -234,6 +234,12 @@
     .contact-text {
         font-size: 4.3vw;
     }
+
+    .list-title-width {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -418,6 +424,12 @@
     .contact-text {
         font-size: 1.9vw;
     }
+
+    .list-title-width {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -589,6 +601,12 @@
 
     .contact-text {
         font-size: 1.9vw;
+    }
+
+    .list-title-width {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
     }
 } 
 
@@ -768,6 +786,12 @@
 
     .contact-text {
         font-size: 1.9vw;
+    }
+
+    .list-title-width {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
     }
 } 
 
@@ -960,6 +984,12 @@
     .contact-text {
         font-size: 1.9vw;
     }
+
+    .list-title-width {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -1012,7 +1042,7 @@
     }
 
     a.nav-close {
-        padding: 15px 0px 12px 0px;
+        padding: 5px 0px 0px 0px;
     }
 
     input {
@@ -1168,6 +1198,12 @@
     .contact-text {
         font-size: 1.9vw;
     }
+
+    .list-title-width {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -1181,6 +1217,23 @@
 * {
     box-sizing: border-box;
     font-family: 'Comic Sans MS', 'Lucida Console', Consolas, 'Malgun Gothic', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-size {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.about-size:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 /* Style the "Add" button */
@@ -1202,6 +1255,40 @@
     transition: 0.5s;
 }
 
+.aplha {
+    width: 52px;
+    height: 100%;
+    border: 0px solid black;
+    float: left;
+    overflow: visible;
+}
+
+.aplha2 {
+    width: 52px;
+    border: 0px solid black;
+    overflow: hidden;
+}
+
+.all-letters {
+    border: 0px solid black;
+    position: relative;
+    margin-top: 0%;
+    margin: auto;
+    background-color: #eeee00;
+    overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.all-letters::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.all-letters {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
 .center {
     margin: auto;
     text-align: center;
@@ -1213,6 +1300,23 @@
     float: right;
     right: 0;
     top: 0;
+}
+
+.contact-size {  
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.contact-size:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .daycare {
@@ -1264,6 +1368,20 @@ i.fa.fa-times:hover {
     transition: 0.5s;
 }
 
+.let-reset-container {
+    text-align: center;
+}
+
+.let-reset {
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.let-reset:hover {
+    opacity: 0.7;
+}
+
 .level {
     margin-top: 20px;
     border-radius: 30px;
@@ -1283,6 +1401,17 @@ i.fa.fa-times:hover {
     transform: scale(1.1);
     transition: 0.5s;
     text-decoration: underline;
+}
+
+.list-title-width {
+    transition: 0.5s;
+}
+
+.list-title-width:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .math-container {
@@ -1338,6 +1467,29 @@ i.fa.fa-times:hover {
     overflow-y: scroll;
     -ms-overflow-style: none; /* IE and Edge */
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sidenav::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidenav {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bold {
     font-weight: bold;
@@ -1486,6 +1638,19 @@ button.dropdown-btn:hover {
     transition: 0.5s;
 }
 
+div.contain {
+    margin: auto;
+    text-align: center;
+}
+
+div.icon-about {
+    height: 15%;
+}
+
+div.icon-contact {
+    height: 15%;
+}
+
 div.head {
     overflow: auto;
 }
@@ -1617,37 +1782,32 @@ ul li.checked {
     text-decoration: line-through;
 }
 
+.underline {
+    text-decoration: underline;
+    color: black;
+    transition: 0.5s;
+}
+
+/* circle back to understand by "Contact us" isn't transforming on hover*/
+.underline:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
 
 
 
 
 
+#mydivheader {
+    cursor: move;
+    background-color: #ff7800;
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*    Below are all the descriptions for the draggable elements on the "Letters" page    */
 
 #mydiv1 {
     position: absolute;
@@ -1826,143 +1986,14 @@ ul li.checked {
 
 
 
-#mydivheader {
-    
-    
-    cursor: move;
-    background-color: #ff7800;
-    color: white;
-}
 
-.aplha {
-    width: 52px;
+
+.background {
+    
+    background-image: url("https://live.staticflickr.com/65535/51299630193_8415298c63_n.jpg");
     height: 100%;
-    border: 0px solid black;
-    float: left;
-    overflow: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -99;
 }
-
-.aplha2 {
-    width: 52px;
-    
-    border: 0px solid black;
-    overflow: hidden;
-}
-
-
-.all-letters {
-    border: 0px solid black;
-    position: relative;
-    margin-top: 0%;
-    margin: auto;
-    background-color: #eeee00;
-    overflow-y: scroll;
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.all-letters::-webkit-scrollbar {
-        display: none;
-    }
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.all-letters {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
-
-
-
-.let-reset-container {
-    text-align: center;
-}
-
-.let-reset {
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-}
-
-.let-reset:hover {
-    opacity: 0.7;
-}
-
-
-
-
-
-
-
-
-
-
-
-div.icon-about {
-    height: 15%;
-}
-
-div.contain {
-
-    margin: auto;
-    text-align: center;
-}
-
-.about-size {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 30%;
-    text-align: center;
-    transition: 0.5s;
-}
-
-.about-size:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-
-div.icon-contact {
-    height: 15%;
-}
-
-
-
-
-.contact-size {
-    
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 30%;
-    text-align: center;
-    transition: 0.5s;
-}
-
-.contact-size:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-
-
-
-
-.underline {
-    text-decoration: underline;
-    color: black;
-    transition: 0.5s;
-}
-
-.underline:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
