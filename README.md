@@ -8,15 +8,21 @@
 
 The theme behind the La Escuelita site focuses on presenting the practice of learning as a fun and interactive process.  Warm, thematic colors are spinkled throughout the site.  Along with rounded text and container elements, these qualities help brand the daycare as a cozy, welcoming atmosphere for kids to be kids.
 
-Regarding UX, users enjoy a straight-forward layout, focued around a collapsed side navigation bar, with a submenu on hover, that beautifully covered the viewport with a gradient background.  On hover, the items in the navigation bar scale up and their container element adopts one of the thematic colors.   
+Regarding UX, users enjoy a straight-forward layout, focued around a collapsed side navigation bar, with a submenu on hover, that beautifully covers the viewport with a gradient background.  On hover, the items in the navigation bar scale up, and their container element adopts one of the thematic colors.   
 
-This site's centerpoint may include the pages To-do List, Letters, and Games.  To-do List leads users (i.e., children) to a dynamic to-do list program that allows them to add, mark up, and delete items.  Letters showcases the letters of the English Alphabet as draggable HTML elements.  Lastly, hovering over Games reveals a submenu containing options for Addition, Subtraction, Multiplication, and Division; 
+Linked through the side navigation bar, this overall site's centerpoint includes the pages To-do List, Letters, and Games.  
+
+To-do List leads users (i.e., children) to a dynamic to-do list program that allows them to add, mark off, and delete items.  
+
+Letters showcases the letters of the English Alphabet as draggable HTML elements to provide users a fun way to play with letters.  
+
+Lastly, hovering over Games reveals a submenu containing options for Addition, Subtraction, Multiplication, and Division.  Each math subject provides level-based games (i.e., Beginner (#s 1-10), Intermediate (#s 1-50), and Advanced (#s 1-100).  In each game, progression is seen via progress bar, and random numbers are dynamically generated for never-ending math problems to solve.
 
 ## Preview
 
-![La Escuelita de Durham](insert a gif)
+![La Escuelita de Durham](https://user-images.githubusercontent.com/25372739/126877365-09b6ef6a-26d2-4d99-9f1f-0056baa3d759.gif)
 
-<p align="center"> ![LivePreview](https://david-roman.tech/daycare-learning-portal/)</p>
+<p align="center"> [LivePreview](https://david-roman.tech/daycare-learning-portal/)</p>
 
 ## Business Use Case
 
