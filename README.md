@@ -22,7 +22,7 @@ Lastly, hovering over Games reveals a submenu containing options for Addition, S
 
 ![La Escuelita de Durham](https://user-images.githubusercontent.com/25372739/126877729-ee241372-507a-4f79-b2b8-4bae7a4a1259.gif)
 
-<p align="center"> [LivePreview](https://david-roman.tech/daycare-learning-portal/)</p>
+[LivePreview](https://david-roman.tech/daycare-learning-portal/)
 
 ## Business Use Case
 
