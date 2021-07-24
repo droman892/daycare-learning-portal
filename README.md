@@ -8,9 +8,9 @@
 
 The theme behind the La Escuelita site focuses on presenting the practice of learning as a fun and interactive process.  Warm, thematic colors are spinkled throughout the site.  Along with rounded text and container elements, these qualities help brand the daycare as a cozy, welcoming atmosphere for kids to be kids.
 
-Regarding UX, users enjoy a straight-forward layout, focued around a collapsed side navigation bar, with a submenu on hover, that beautifully covers the viewport with a gradient background.  On hover, the items in the navigation bar scale up, and their container element adopts one of the thematic colors.   
+Regarding UX, users enjoy a straight-forward layout, focued around a collapsed side navigation bar, with a submenu on hover, that beautifully covers the viewport with a gradient background.  AJAX and jQuery are used to open the submenu and simultaneously push down whatever element(s) beneath it (a vertical scrollbar hides in the navigation bar to accomodate its varied when extended by the submenu).  On hover, the items in the navigation bar scale up, and their container element adopts one of the thematic colors.   
 
-Linked through the side navigation bar, this overall site's centerpoint includes the pages To-do List, Letters, and Games.  
+Linked through the side navigation bar, this overall site's centerpoint includes the pages To-do List, Letters, and Games:  
 
 To-do List leads users (i.e., children) to a dynamic to-do list program that allows them to add, mark off, and delete items.  
 
