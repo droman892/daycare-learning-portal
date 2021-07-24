@@ -20,14 +20,15 @@ Lastly, hovering over Games reveals a submenu containing options for Addition, S
 
 ## Preview
 
-![La Escuelita de Durham](https://user-images.githubusercontent.com/25372739/126877365-09b6ef6a-26d2-4d99-9f1f-0056baa3d759.gif)
+![La Escuelita de Durham](https://user-images.githubusercontent.com/25372739/126877729-ee241372-507a-4f79-b2b8-4bae7a4a1259.gif)
 
 <p align="center"> [LivePreview](https://david-roman.tech/daycare-learning-portal/)</p>
 
 ## Business Use Case
 
-- 
-- 
+- Business owner desires an online presence for parents/clients to learn more about the daycare business
+- Business owner desires a software platform to help teach children organization, the English alphabet, and math
+- Business owner desires a site to help optimize SEO ranking
 
 ## Status
 
@@ -49,13 +50,11 @@ the `index.html` file in your web browser.
 
 ## Roadmap
 
-La Escuelita de Durham remains an on-going project, open to contributions.
+La Escuelita de Durham remains an on-going project, open to contributions.  Functionality that could improve the UX, aside from optimizing the already responsive format and adding a back-end, include the following:
 
-1) 
-2) 
-3) 
-4) 
-5) 
+1) add more copies of letters on `letters.html`
+2) improve spacing between "letter elements" on `letters.html`
+3) load random numbers and the progression in the progress bar throughout all the games without needing to create numerous HTML files
 
 ## Bugs and Issues
 
