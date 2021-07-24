@@ -2,7 +2,7 @@
 
 <p align="center"> La Escuelita de Durham (aka "La Escuelita") is a responsive, static website for a children's daycare. </p>
 
-<p align="center"> :smile: :pencil: :star: :book: :boy: :school_satchel: :girl: :apple: </p>
+<p align="center"> :smile: :pencil: :star: :school_satchel: :boy: :book: :girl: :apple: </p>
 
 ## Description
 
