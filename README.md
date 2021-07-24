@@ -2,11 +2,11 @@
 
 <p align="center"> La Escuelita de Durham (aka "La Escuelita") is a responsive, static website for a children's daycare. </p>
 
-<p align="center"> :smile: :pencil: :star: :book: :boy: :girl: :school_satchel: :apple: </p>
+<p align="center"> :smile: :pencil: :star: :book: :boy: :school_satchel: :girl: :apple: </p>
 
 ## Description
 
-The theme behind La Escuelita site focuses on presenting the practice of learning as a fun and interactive process.  Warm, thematic colors are spinkled throughout the site.  Along with rounded text and elements, these qualities help brand the daycare as a cozy, welcoming atmosphere for kids to kids.
+The theme behind the La Escuelita site focuses on presenting the practice of learning as a fun and interactive process.  Warm, thematic colors are spinkled throughout the site.  Along with rounded text and container elements, these qualities help brand the daycare as a cozy, welcoming atmosphere for kids to be kids.
 
 Regarding UX, users enjoy a straight-forward layout, focued around a collapsed side navigation bar, with a submenu on hover, that beautifully covered the viewport with a gradient background.  On hover, the items in the navigation bar scale up and their container element adopts one of the thematic colors.   
 
